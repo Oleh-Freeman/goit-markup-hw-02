@@ -10,7 +10,12 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.css"
+    
+       <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- Header -->
@@ -25,29 +30,31 @@
           <li><a class="nav-item" href="#">Contacts</a></li>
         </ul>
       </nav>
-      
+
         <ul>
+          <address>
           <li>
-            <address href="mailto:info@devstudio.com"
-              >info@devstudio.com</address>
+            <a class="nav-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
           <li>
-            <address href="tel:+110001111111">+11 (000) 111-11-11</address>
+            <a class="nav-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
+        </address>
     </header>
 
     <main>
       <!-- Hero section -->
       <section>
-        <div class="Hero">
+        <div class="hero">
         <h1 class="h1">Effective Solutions for Your Business</h1>
         <button>Order Service</button>
         </div>
+      </section> 
 
       <!-- Our Features section -->
       <section>
-        <h2 class="h2">Our Features</h2>
+        <h2  class="visually-hidden">Our Features</h2>
         <ul>
           <li>
             <h3 class="h3">Strategy</h3>
