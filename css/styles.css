@@ -149,6 +149,14 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
+cursor: pointer;.visually-hidden {
+}
+
+.p-featchers {
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
 }
 .btn:hover, .btn:focus {
     background-color: #404bbf; 
@@ -159,8 +167,16 @@ color: #fff;
 
 /* #endregion Our Features */
 /* #region   team  */
-.team {
-    background-color: #f4f4fd;;
+
+.f-team {
+    background: #404bbf;
+}
+
+.p-team {
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+color: #434455;
 }
 
 
