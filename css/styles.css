@@ -72,13 +72,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-text-align: left;
-
-color: #2e2f42;
-}
-
-.p-team { 
-   color: #434455;
+text-align: center;
 }
 
 /* #endregion base styles */
@@ -149,7 +143,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
-cursor: pointer;.visually-hidden {
+cursor: pointer;
 }
 
 .p-featchers {
@@ -157,7 +151,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
-}
+
 .btn:hover, .btn:focus {
     background-color: #404bbf; 
 }
@@ -167,9 +161,12 @@ color: #434455;
 
 /* #endregion Our Features */
 /* #region   team  */
+.team{  
+    background: #f4f4fd;
+}
 
 .f-team {
-    background: #404bbf;
+    background: #fff;
 }
 
 .p-team {
