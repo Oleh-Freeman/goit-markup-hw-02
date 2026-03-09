@@ -19,22 +19,6 @@ text-decoration: none;
 
 }
 
-/* button {
-    
-    cursor: pointer;
-    color: #fff;
-    background-color: #4D5AE5;
-
-    .btn:hover, .btn:focus{
-        background-color: #404bbf;
-    }
-;
-} */
-
-/* .link{
-    text-decoration: none;
-} */
-
 address {
     font-style: normal;
 }
@@ -44,6 +28,7 @@ font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
 color: #fff;
+text-align: center;
 }
 
 .h2{
@@ -52,6 +37,7 @@ font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 color: #2e2f42;
+text-align: center;
 } 
 
 .visually-hidden {
@@ -72,7 +58,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-text-align: center;
+text-align: left;
 }
 
 /* #endregion base styles */
@@ -134,8 +120,7 @@ color: #434455;
 .hero {
     background-color: #2E2F42;
 }
-/* #endregion hero  */
- 
+
 .btn {
 background-color: #4D5AE5;
 font-weight: 500;
@@ -145,21 +130,20 @@ letter-spacing: 0.04em;
 color: #fff;
 cursor: pointer;
 }
+.btn:hover, .btn:focus {
+    background-color: #404bbf; 
+}
 
+/* #endregion hero  */
+
+/* #region Our Features */
 .p-featchers {
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
-
-.btn:hover, .btn:focus {
-    background-color: #404bbf; 
-}
-
-/* #region Our Features */
-
-
 /* #endregion Our Features */
+
 /* #region   team  */
 .team{  
     background: #f4f4fd;
@@ -175,13 +159,22 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
 }
+/* #endregion   team  */
 
+/* #region Portfolio  */
+.h3 {
+    text-align: left;
+}
+.portfolio {
+    background-color: #fff;
+}
+/* #endregion Portfolio  */ 
 
 /* #region footer  */
 footer {
     background-color: #2E2F42;
 }
-.footer-p {
+.p-footer {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
