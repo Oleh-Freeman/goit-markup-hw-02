@@ -144,7 +144,7 @@ color: #434455;
 }
 /* #endregion Our Features */
 
-/* #region   team  */
+/* #region gitteam  */
 .team{  
     background: #f4f4fd;
 }
@@ -163,8 +163,7 @@ color: #434455;
 
 /* #region Portfolio  */
 .portfolio {
-    background-color: #fff;
-    
+    background-color: #fff;  
 }
 
 .portfolio-title {
@@ -173,7 +172,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
-    text-align: left;
+text-align: left;
 }
 /* #endregion Portfolio  */ 
 
