@@ -58,7 +58,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-text-align: center;
+text-align: left;
 }
 
 /* #endregion base styles */
@@ -144,13 +144,17 @@ color: #434455;
 }
 /* #endregion Our Features */
 
-/* #region gitteam  */
+/* #region team  */
 .team{  
     background: #f4f4fd;
 }
 
 .f-team {
     background: #fff;
+}
+
+.team-name {
+    text-align: center;
 }
 
 .p-team {
