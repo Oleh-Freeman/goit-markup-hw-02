@@ -156,7 +156,7 @@ color: #434455;
 .p-team {
 line-height: 1.5;
 letter-spacing: 0.02em;
-/* text-align: center; */
+text-align: center;
 color: #434455;
 }
 /* #endregion   team  */
