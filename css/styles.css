@@ -1,6 +1,6 @@
 /* #region base style */
 
-ul {
+ul, ol {
   list-style-type: none;
   margin: 0;
   padding-left: 0;
@@ -15,101 +15,82 @@ h6,
 body {
   margin: 0;
 }
-
-address {
-  font-style: normal;
-}
-
 button {
   cursor: pointer;
   font-family: inherit;
 }
-
 body {
 color: #2e2f42;
 font-family: "Roboto", sans-serif; 
 background-color: #fff;
 }
-
-ol, ul {
-    list-style: none;
-}
-
 a{
     text-decoration: none;
-    color: currentColor; 
+    color: #2e2f42; 
 }
 a:hover,
 a:active {
     color: #404bbf;
 }
-
-p {
-   
+p {  
 }
-
 h1 {
-font: 700 56px / 1.07;
+font: 700 56px / 1.07 "Roboto", sans-serif;
 letter-spacing: 0.02em;
 text-align: center;
-color: #fff; 
-}
+color: #fff;
 
+}
 h2 {
 font: 700 36px / 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;    
 }
-
 h3 {
 font: 500 20px / 1.2;
 letter-spacing: 0.02em;
 text-align: left;
 color: #2e2f42;
 }
+.container {
+    max-width: 1128px;
+    margin: 0 auto;   
+}
+.section-title {
+padding: 120px 0 72px;
+}
 /* #endregion base style */
 
 /* #region header style */
-.conteiner {
-  
-    
+header {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center ; */
 }
-
-.header {
+.header .container {
     display: flex;
     justify-content: space-between;
-    gap: 40px;
+    margin-left: auto;
+    align-items: center;;
 }
 .nav-menu {
-    
+    display: flex;
+    align-items: center;
 }
 
 .nav-menu-list {
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+flex-direction: row;
+gap: 40px;
+padding-left: 76px;
 }
 .nav-menu-link {
 font: 500 16px / 1.5;
 letter-spacing: 0.02em;
-color: rgba(0, 0, 0, 0.2);
-}
-
-.address-list {
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
-}
-
-.address-item {
-font: 400 16px / 1.5;
-letter-spacing: 0.02em;
-color: #d9d9d9;
-}
-
-header {
-    background-color: transparent;
+padding: 24px 0;
 }
 
 /* #endregion header style */
@@ -120,15 +101,28 @@ address {
     font: 400 16px / 1.5 "Roboto", sans-serif;
     letter-spacing: 0.02em;
     color: #2e2f42; 
+    font-style: normal;
 }
 address:hover,
 address:active {
     color: #404bbf;
 }
+.address-list {
+    display: flex;
+    gap: 40px;
+}
+.address-item {
+font: 400 16px / 1.5;
+letter-spacing: 0.02em;
+color: #d9d9d9;
+align-items: center;
+padding: 24px 0;
+}
 /* #endregion address style */
 
 /* #region logo style */
 .logo {
+display: block;
 font: 700 18px / 1.17 "Raleway", sans-serif;
 letter-spacing: 0.03em;
 text-transform: uppercase;
@@ -145,27 +139,36 @@ color: #f4f4fd;
 /* #endregion logo style */
     
 /* #region hero style */
-
 .hero {
 background: #2e2f42;
-
 }
 
 .hero-title {
-text-align: center;
 color: #fff;
-/* padding:188px 472px 292px; */
-    
+max-width: 496px;
+width: 100%;
+margin: 0 auto;
+padding:188px 0 292px;   
 }
 
 .btn {
-    background-color: #404bbf;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font: 500 16px / 1.5 "Roboto", sans-serif;
-    letter-spacing: 0.02em;
-    cursor: pointer;
+font: 500 16px / 1.5 "Roboto", sans-serif;
+letter-spacing: 0.04em;
+color: #fff;
+display: flex;
+align-items: center;
+flex-direction: row;
+margin: 0 auto;
+gap: 10px;
+
+border-radius: 4px;
+padding-block: 16px;
+padding-inline: 32px;
+width: 169px;
+height: 56px;
+
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: #404bbf;
 }
 .btn:hover,
 .btn:focus {
@@ -176,18 +179,18 @@ color: #fff;
 /* #region features style */
 section {
     background-color: #f0f0f0;
+    padding: 120px 0;
 }
 
 .features {
+    /* display: flex; */
 }
-
-.h2 {
-}
-
 .features-title {
 }
 
 .features-list {
+    display: flex;
+    gap: 30px;
 }
 
 .features-heading {
@@ -202,14 +205,18 @@ section {
     
 }
 .team-title {
-    
+    padding: 120px 0 72px;
 }
 
 .team-list {
-  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .team-img {
+    background: #f4f4fd;
+    width: 264px;
     
 }
 
@@ -225,9 +232,13 @@ section {
 /* #endregion team */
 
 /* #region portfolio */
-.section-title {
+.portfolio-title {
+    padding: ;
 }
 .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 .project-img-1 {
 }
