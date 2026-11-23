@@ -13,7 +13,7 @@
 }
 .nav-list-link:hover,
 .nav-list-link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 .contacts {
@@ -24,9 +24,9 @@
 }
 .contacts-link {
   font-size: 16px;
-  color: #d9d9d9;
+  color: #434455;
 }
 .contacts-link:hover,
 .contacts-link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
